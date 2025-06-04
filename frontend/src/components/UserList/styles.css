@@ -1,0 +1,18 @@
+.user-list-item {
+  cursor: pointer;
+  padding: 12px 16px;
+  transition: background 0.2s;
+  color: #000;
+}
+
+/* Hover cho các mục chưa được chọn */
+.user-list-item:hover:not(.selected) {
+  background: #0e95f6;
+  color: #fff;
+}
+
+/* Khi mục được chọn */
+.user-list-item.selected {
+  background: #f2560e !important;
+  color: #fff !important;
+}
